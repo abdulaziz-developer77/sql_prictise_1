@@ -1,1 +1,23 @@
 
+-- SQl aggregate functions 
+
+Jami xarajatlar miqdorini toping:
+
+select sum(amount) from payments
+
+
+Eng qimmat mahsulot narxini aniqlang:
+
+select max(amount) from payments
+
+
+Eng arzon mahsulot narxini aniqlang:
+
+select MIN(amount) from payments
+
+select count(*) from payments
+
+select AVG(amount) from payments
+
+select count(*) from familyMember
+where member_name like 'A%'
